@@ -1,5 +1,12 @@
 This just contains boilerplate to run the tests from the interpreter
 
+PARAM ORDER: timetillliftarrives startfloor buildingheight liftcurrentfloor liftdirection
+Results should be
+1: 2
+2: 4
+3: 6
+4: 4
+
 > waittest1 = timetillliftarrives 3 10 1 "Up"
 > waittest2 = timetillliftarrives 3 10 1 "Down"
 > waittest3 = timetillliftarrives 5 10 9 "Up"

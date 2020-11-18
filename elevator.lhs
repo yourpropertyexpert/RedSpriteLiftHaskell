@@ -43,11 +43,3 @@ fullarray = map secondstodestination startfloor endfloor liftfloor directions
 >   | startfloor < destinationfloor = "Up"
 >   | startfloor > destinationfloor = "Down"
 >   | otherwise = "arrived"
-
-
-PARAM ORDER: timetillliftarrives startfloor buildingheight liftcurrentfloor liftdirection
-Results should be
-1: 2
-2: 4
-3: 6
-4: 4
